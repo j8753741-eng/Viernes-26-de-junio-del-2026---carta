@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta para esta Noche</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    radial-gradient(circle at top,#5b1635,#1a0b18 70%);
+    overflow:auto;
+    font-family:'Cormorant Garamond',serif;
+    padding:40px 15px;
+}
+
+/* Estrellas */
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background-image:
+radial-gradient(white 1px,transparent 1px),
+radial-gradient(#ffe6ef 1px,transparent 1px),
+radial-gradient(#ffffff 1px,transparent 1px);
+background-size:180px 180px,240px 240px,320px 320px;
+opacity:.25;
+animation:brillo 8s infinite alternate;
+pointer-events:none;
+}
+
+@keyframes brillo{
+from{opacity:.15;}
+to{opacity:.35;}
+}
+
+.carta{
+
+width:min(850px,95%);
+background:rgba(255,250,252,.95);
+border-radius:35px;
+padding:60px;
+box-shadow:
+0 0 50px rgba(255,170,200,.25),
+0 15px 50px rgba(0,0,0,.4);
+
+position:relative;
+overflow:hidden;
+}
+
+.carta::before{
+content:"❤";
+position:absolute;
+top:-10px;
+right:20px;
+font-size:90px;
+color:rgba(255,105,150,.12);
+transform:rotate(-20deg);
+}
+
+.carta::after{
+content:"❀";
+position:absolute;
+bottom:-15px;
+left:15px;
+font-size:90px;
+color:rgba(255,170,190,.15);
+}
+
+h1{
+font-family:'Great Vibes',cursive;
+font-size:58px;
+text-align:center;
+color:#b51d5d;
+margin-bottom:15px;
+}
+
+.subtitulo{
+text-align:center;
+font-size:20px;
+color:#6d4b58;
+margin-bottom:45px;
+letter-spacing:2px;
+}
+
+.separador{
+width:140px;
+height:2px;
+background:#d88ba8;
+margin:0 auto 40px;
+}
+
+.texto{
+
+min-height:520px;
+border:2px dashed #e7bfd0;
+border-radius:25px;
+padding:35px;
+font-size:22px;
+line-height:2;
+color:#5c3f49;
+background:white;
+}
+
+.placeholder{
+opacity:.35;
+text-align:center;
+margin-top:180px;
+font-style:italic;
+}
+
+.frase{
+
+margin-top:45px;
+padding:25px;
+border-left:6px solid #d6508d;
+background:#fff5f9;
+border-radius:18px;
+font-size:24px;
+font-style:italic;
+color:#9b295f;
+text-align:center;
+min-height:90px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.boton{
+display:flex;
+justify-content:center;
+margin-top:45px;
+}
+
+button{
+
+padding:18px 45px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+
+font-size:20px;
+font-family:'Cormorant Garamond',serif;
+font-weight:bold;
+
+background:linear-gradient(135deg,#ff5f9e,#b01d65);
+color:white;
+
+box-shadow:0 10px 25px rgba(176,29,101,.4);
+
+transition:.35s;
+}
+
+button:hover{
+transform:translateY(-4px) scale(1.04);
+box-shadow:0 15px 35px rgba(176,29,101,.5);
+}
+
+footer{
+margin-top:40px;
+text-align:center;
+font-family:'Great Vibes',cursive;
+font-size:30px;
+color:#b51d5d;
+opacity:.85;
+}
+
+@media(max-width:700px){
+
+.carta{
+padding:35px 25px;
+}
+
+h1{
+font-size:46px;
+}
+
+.texto{
+font-size:20px;
+min-height:420px;
+}
+
+.frase{
+font-size:21px;
+}
+
+button{
+width:100%;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="carta">
+
+<h1>Para Ti, Mi Amor</h1>
+
+<div class="subtitulo">
+Una noche más en la que mi corazón volvió a encontrarte...
+</div>
+
+<div class="separador"></div>
+
+<div class="texto">
+
+<div class="placeholder">
+
+<p><strong>MI NIÑA LINDA</strong></p>
+
+<p>Esta noche del viernes 26 de junio de 2026, a las 9:30 de la noche, quiero expresarte una vez más lo mucho que te amo, como lo he hecho cada noche desde aquel inolvidable 17 de octubre. Cada día que pasa mi amor por ti crece más y más, y aunque las palabras nunca serán suficientes para describir todo lo que siento, mi corazón siempre encuentra la forma de hablarte.</p>
+
+<p>Mi vida, aunque no lo creas, soy el hombre más feliz por tenerte. Desde que llegaste a mi vida cuando menos lo esperaba y llenaste de paz un corazón que durante mucho tiempo buscó tranquilidad sin encontrarla. Contigo descubrí que el verdadero amor existe, que amar también significa admirar, respetar, cuidar y agradecer cada instante compartido.</p>
+
+<p>Quiero pedirte perdón por todas esas ocasiones en las que he cometido errores o hice cosas sin tu consentimiento. Nunca ha sido mi intención hacerte sentir incómoda o lastimarte. Cada error me enseña a ser un mejor hombre para ti, porque lo único que deseo es verte sonreír y hacerte sentir segura, amada y valorada todos los días de nuestra vida.</p>
+
+<p>¿Sabes algo, hermosa? Siento que la vida me dio la oportunidad más maravillosa que podía recibir: conocerte y tenerte a mi lado como mi pareja. Le agradezco a Dios y al destino por haberte puesto en mi camino, porque desde que llegaste todo tiene más sentido. Nunca imaginé encontrar a alguien que hiciera latir mi corazón con tanta fuerza y que con una simple mirada fuera capaz de iluminar incluso mis días más difíciles.</p>
+
+<p>Nunca quiero que dudes de lo importante que eres para mí. Eres la mujer con la que sueño construir un futuro lleno de recuerdos hermosos, de abrazos interminables, de risas sinceras y de momentos que jamás olvidaremos. Quiero estar contigo en los días felices, pero también en los difíciles, sosteniendo tu mano y recordándote que nunca tendrás que enfrentarlos sola.</p>
+
+<p>Gracias por cada palabra, por cada detalle, por cada beso, por cada abrazo y por todo el amor que me regalas. Gracias por creer en nosotros y por permitirme ocupar un lugar tan especial en tu corazón. Prometo seguir esforzándome para ser cada día una mejor versión de mí, alguien que esté a la altura del inmenso amor que tú mereces.</p>
+
+<p>Esta noche solo quiero que cierres los ojos por un momento e imagines que estoy abrazándote muy fuerte, diciéndote al oído cuánto te amo y recordándote que, sin importar el paso del tiempo, siempre te elegiré a ti. Eres mi paz, mi refugio, mi felicidad y el amor más bonito que ha llegado a mi vida.</p>
+
+<p>Te amo con todo mi corazón, hoy, mañana y siempre. ❤️</p>
+</div>
+
+</div>
+
+<div class="frase">
+
+<p>Sabes algo hermosa la razón de porque no me gustan las salidas grupales, es porque yo nunca te lo dije pero creo que tal vez te has dado cuenta pero yo soy una persona tiene un apego emocional contigo <strong>VALERIA PETRO VILLAZÓN</strong></p>
+  <p>E il motivo per cui mi allontano e mi annoio un po' durante le uscite di gruppo è che quasi sempre mi allontani e ti avvicini agli altri lasciandomi solo per un po', ma va bene, lo capisco, so che non posso averti sempre per me</p>
+  <p> Et si je ne voulais pas te le dire parce que je pense que le moment est venu pour toi de le savoir, parce que je vais arrêter de penser, de garder mes distances avec toi en public parce que je sais que ça ne t’a pas beaucoup plu </p>
+</div>
+
+<div class="boton">
+
+<button onclick="window.open('PEGA_AQUI_EL_ENLACE_DEL_POEMA','_blank')">
+
+🌹 Leer el poema de esta noche 🌹
+
+</button>
+
+</div>
+
+<footer>
+
+Con todo mi amor ❤️
+
+</footer>
+
+</div>
+
+</body>
+</html>
